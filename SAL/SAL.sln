@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAL", "SAL.csproj", "{D1855287-6C1C-4D06-A8EF-AB204FE89D52}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlSchema", "..\SqlSchema\SqlSchema.csproj", "{5279B516-9C7F-43AF-B198-DD7AFB07A2EB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D1855287-6C1C-4D06-A8EF-AB204FE89D52}.Debug.ActiveCfg = Debug|.NET
+		{D1855287-6C1C-4D06-A8EF-AB204FE89D52}.Debug.Build.0 = Debug|.NET
+		{D1855287-6C1C-4D06-A8EF-AB204FE89D52}.Release.ActiveCfg = Release|.NET
+		{D1855287-6C1C-4D06-A8EF-AB204FE89D52}.Release.Build.0 = Release|.NET
+		{5279B516-9C7F-43AF-B198-DD7AFB07A2EB}.Debug.ActiveCfg = Debug|.NET
+		{5279B516-9C7F-43AF-B198-DD7AFB07A2EB}.Debug.Build.0 = Debug|.NET
+		{5279B516-9C7F-43AF-B198-DD7AFB07A2EB}.Release.ActiveCfg = Release|.NET
+		{5279B516-9C7F-43AF-B198-DD7AFB07A2EB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

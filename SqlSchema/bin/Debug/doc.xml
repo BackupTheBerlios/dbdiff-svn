@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SqlSchema</name>
+    </assembly>
+    <members>
+        <member name="T:com.common.sal.schema.SqlSchema">
+            <summary>
+            SqlSchema represents a SQL Server 2000 database schema.
+            </summary>
+        </member>
+    </members>
+</doc>
